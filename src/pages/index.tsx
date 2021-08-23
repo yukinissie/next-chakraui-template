@@ -1,9 +1,9 @@
-import Head from "next/head";
+import { Box } from "@chakra-ui/react";
 
 export default function Home() {
   return (
-    <div className='text-center'>
-      <h1>Hello Next App</h1>
-    </div>
+    <Box bg='tomato' w='100%' p={4} color='white'>
+      Hello Chakra
+    </Box>
   );
 }
